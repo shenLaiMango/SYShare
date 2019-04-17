@@ -30,7 +30,7 @@
 {
     WeChatPushModel *model = [WeChatPushModel new];
     model.thumbimage = [UIImage imageNamed:@"ss.jpeg"];
-    model.webpageUrl = @"https://open.weixin.qq.com";
+    model.webpageUrl = @"http://www.cnblogs.com/shenlaiyaoshi/";
     model.userName = @"标题";
     model.content = @"描述";
     [MYWeChat shareWebpageObjectWeChat:WXSceneSession shareContent:model];
@@ -69,7 +69,7 @@
 - (void)shareNewsObjectQQ:(int)QQScene
 {
     TencentOpenQQPushModel *model = [TencentOpenQQPushModel new];
-    model.webpageUrl = @"";
+    model.webpageUrl = @"http://www.cnblogs.com/shenlaiyaoshi/";
     model.content = @"sdfsadfaffdaf";
     model.userName = @"标题";
     model.maxImageUrl = @"https://pics5.baidu.com/feed/b3fb43166d224f4a577303e7dc7238569a22d1e2.jpeg?token=1a7198b1dee4d5d4829a4eb7e5c37623&s=C112549ADE176BEB0AEF9D460300F0BB";
@@ -106,7 +106,7 @@
     WeiBoPushModel *model = [WeiBoPushModel new];
     model.content = @"是的发送到发发发呆";
     model.maxImage = [UIImage imageNamed:@"ss.jpeg"];
-    model.webpageUrl = @"http://www.cocoachina.com/bbs/read.php?tid=1711152";
+    model.webpageUrl = @"http://www.cnblogs.com/shenlaiyaoshi/";
     [MYWeibo shareWebpageObjectWeibo:model];
 }
 

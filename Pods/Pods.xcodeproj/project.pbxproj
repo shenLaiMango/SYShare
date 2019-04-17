@@ -6,150 +6,49 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		2F96A53607420A85F66B79FC4FD45E4C /* ShareSDK3 */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 5F06994C1A89CA9972A2C69510B65C6E /* Build configuration list for PBXAggregateTarget "ShareSDK3" */;
-			buildPhases = (
-			);
-			dependencies = (
-				92831A72431BA04A3444DF8D083897A6 /* PBXTargetDependency */,
-			);
-			name = ShareSDK3;
-		};
-		413E61EDB665EA51FEC31FADB06F1A60 /* TencentOpenApiSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 32C068D1A2F8AA73427A4B198182EDA4 /* Build configuration list for PBXAggregateTarget "TencentOpenApiSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = TencentOpenApiSDK;
-		};
-		AA3F757EEB96F08F687C2A1B60D77C56 /* WechatOpenSDK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 54B172185D95C49402529268FA5EBC0C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = WechatOpenSDK;
-		};
-		C280DB67AE73DAECC3231DC79E71D483 /* MOBFoundation */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = MOBFoundation;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		51150C56D865887EEBCF3978379B09E9 /* Pods-CYShareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A529F1C15217CE8D64B615396A120768 /* Pods-CYShareTests-dummy.m */; };
-		937E6AFB6D0AE4BE1E2920C6DA29AC89 /* Pods-CYShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFCA218D875F8723FF7E1F93FE544A28 /* Pods-CYShare-dummy.m */; };
-		E05F0AC58312E52069031642C86F58B7 /* Pods-CYShareUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EE00F7C70414D862C6E1DD073E9943 /* Pods-CYShareUITests-dummy.m */; };
+		51150C56D865887EEBCF3978379B09E9 /* Pods-CYShareTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C89BB954CBAC6B9D3DFC01E7E441E93E /* Pods-CYShareTests-dummy.m */; };
+		83B2DBBA095BE9461A9013FC1A34A029 /* Pods-CYShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442D72ED79C0BFDD08D35296FEBAA54A /* Pods-CYShare-dummy.m */; };
+		E05F0AC58312E52069031642C86F58B7 /* Pods-CYShareUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 977227534A3BCCA546368721B9DF17D8 /* Pods-CYShareUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		679BEE8658B6112068410FC2B3CF5BDC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 413E61EDB665EA51FEC31FADB06F1A60;
-			remoteInfo = TencentOpenApiSDK;
-		};
 		6D1EED7D5A0A3FD7E6C32C72694DFFBE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B8AC6FA595AB13AC92E096CB7CCC969;
+			remoteGlobalIDString = D62B5B905BC3CDD8E3CD404172B1EA19;
 			remoteInfo = "Pods-CYShare";
-		};
-		91AA7A3D9B87FB26B1CE77BD379779EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2F96A53607420A85F66B79FC4FD45E4C;
-			remoteInfo = ShareSDK3;
-		};
-		A39301FCDF196366945C1D093DB13C22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C280DB67AE73DAECC3231DC79E71D483;
-			remoteInfo = MOBFoundation;
-		};
-		AAB9915F56E8A03C5809F1C06EAA6B3F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA3F757EEB96F08F687C2A1B60D77C56;
-			remoteInfo = WechatOpenSDK;
-		};
-		EC344E65680C1FF917B48F0BA97B665B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C280DB67AE73DAECC3231DC79E71D483;
-			remoteInfo = MOBFoundation;
 		};
 		EF63D8E3AB705DB201949078BBCBED0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B8AC6FA595AB13AC92E096CB7CCC969;
+			remoteGlobalIDString = D62B5B905BC3CDD8E3CD404172B1EA19;
 			remoteInfo = "Pods-CYShare";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D5DAA779DFEBDD59BD483B0CD9FC3F9 /* ShareSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDK.bundle; path = SDK/ShareSDK/Support/Required/ShareSDK.bundle; sourceTree = "<group>"; };
-		10BDD963B7C2B20562AB4F2A7231C676 /* Pods-CYShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYShare-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1387960AD3389CD3FDBA5356C9F85871 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuth.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuth.h; sourceTree = "<group>"; };
-		174B243B37BD3E7C1CF2F0574CAA16A5 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = Basic/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		1D89C41793B05EC745B7C1AAD0099BAA /* Pods-CYShareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareTests.release.xcconfig"; sourceTree = "<group>"; };
-		22C08326F54AC24B7698C2DEBEA842F1 /* Pods-CYShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShare.release.xcconfig"; sourceTree = "<group>"; };
-		243495D4D08D4A06BA9E6B8772E89427 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = WeChatSDK1.8.4/libWeChatSDK.a; sourceTree = "<group>"; };
-		30A8053D76F85AD4997A5A5EC44BDDCE /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
-		3B6ECC508DF62C0FB0D08367B7D1C32E /* ShareSDK3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShareSDK3.xcconfig; sourceTree = "<group>"; };
-		3EB7961B4E80094B40A66A17A73CDA88 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterface.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterface.h; sourceTree = "<group>"; };
-		49362A465E7426D600E5D55E4C082EEE /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = SDK/ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
-		4A8A197B984A273F4A23B65509F250E1 /* Pods-CYShareUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYShareUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4DD42A2185A84C0451E95D029DAF3A3A /* Pods-CYShareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15CC789CA9F6F662EC650C28F22FE478 /* Pods-CYShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShare.debug.xcconfig"; sourceTree = "<group>"; };
+		296A4C9D9D97BE55C224D4D02434FA03 /* Pods-CYShare-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYShare-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3ED3A482C9C2731F747F48903B0B4272 /* Pods-CYShareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		442D72ED79C0BFDD08D35296FEBAA54A /* Pods-CYShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYShare-dummy.m"; sourceTree = "<group>"; };
 		594CF4F4B78BBFA426C4325C869C171B /* libPods-CYShareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYShareTests.a"; path = "libPods-CYShareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A2AFC368EA71581BABF796FDDFDADFA /* libWeiboSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeiboSDK.a; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/libWeiboSDK.a; sourceTree = "<group>"; };
-		5BDAF0DF3FEA0F1EE9855622AEBB407D /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QQApiInterfaceObject.h; path = Basic/TencentOpenAPI.framework/Headers/QQApiInterfaceObject.h; sourceTree = "<group>"; };
-		639ADC16D64ABBDAEF3C4E8203DF6536 /* Pods-CYShareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYShareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A9674A05B2934FBEF846D1F004AE4CD /* Pods-CYShareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7C89C0C1B678231074B1B20EE0BAF224 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
-		7DD2365C29FF21880FC6C8C2D2B6BBDC /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = WeChatSDK1.8.4/WechatAuthSDK.h; sourceTree = "<group>"; };
-		81146480671412F3F1819997031550DA /* SinaWeiboConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SinaWeiboConnector.framework; path = SDK/ShareSDK/Support/PlatformConnector/SinaWeiboConnector.framework; sourceTree = "<group>"; };
-		87AC2B95624BF8F94BBC83288D72A316 /* WeiboSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = WeiboSDK.bundle; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.bundle; sourceTree = "<group>"; };
-		8BE1F7C7D943089C33D736C725C11E5B /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdkdef.h; path = Basic/TencentOpenAPI.framework/Headers/sdkdef.h; sourceTree = "<group>"; };
-		9705E75C1BB846395D8BA13FF7DA017B /* Pods-CYShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShare.debug.xcconfig"; sourceTree = "<group>"; };
-		9B2A1E5B730B606E7F5A1064E2796BE5 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = SDK/ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
-		9B64BCF2EBB31BE100B3B62C95A0960E /* TencentOpenApiSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentOpenApiSDK.xcconfig; sourceTree = "<group>"; };
+		73A1D73EE36CEC62447893E078965ECE /* Pods-CYShareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYShareTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D57054ABC2887907A54DA95663C4B53 /* Pods-CYShareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D44DEFC3FFE578DDB5A1D6EFA47166F /* Pods-CYShareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9756D10884AEB284AA5EB0D927098B74 /* Pods-CYShareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareTests.release.xcconfig"; sourceTree = "<group>"; };
+		977227534A3BCCA546368721B9DF17D8 /* Pods-CYShareUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYShareUITests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DF4222803ABE7DD78488A045A7CCFA6 /* TencentOAuthObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TencentOAuthObject.h; path = Basic/TencentOpenAPI.framework/Headers/TencentOAuthObject.h; sourceTree = "<group>"; };
-		A1166825481CAA5E33C3D88279F3A409 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = WeChatSDK1.8.4/WXApi.h; sourceTree = "<group>"; };
-		A529F1C15217CE8D64B615396A120768 /* Pods-CYShareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYShareTests-dummy.m"; sourceTree = "<group>"; };
-		BEF3920FB7D3F8ACAF4691A43D838FA5 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = WeChatSDK1.8.4/WXApiObject.h; sourceTree = "<group>"; };
-		C16B08137494B7D6C457AFB6273E3DA5 /* MOBFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOBFoundation.xcconfig; sourceTree = "<group>"; };
-		C45139F96A6D8DA66BB04A5AC4D6AEF5 /* Pods-CYShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYShare-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6EE00F7C70414D862C6E1DD073E9943 /* Pods-CYShareUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYShareUITests-dummy.m"; sourceTree = "<group>"; };
-		D7DE482AB67607357C189368F3497745 /* WBHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WBHttpRequest.h; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WBHttpRequest.h; sourceTree = "<group>"; };
-		DED562ECEFCCDE5193CAF477C4718CF8 /* WechatOpenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.xcconfig; sourceTree = "<group>"; };
-		E12D32DBDDD7EF9FECD489F6DCE26A47 /* WeiboSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeiboSDK.h; path = SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK/WeiboSDK.h; sourceTree = "<group>"; };
+		9E8FE2FB7742D11A0DA50D2C6D8D34CA /* Pods-CYShareUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYShareUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0166B6EFDA6A5BC2939F6681DE6515E /* Pods-CYShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShare.release.xcconfig"; sourceTree = "<group>"; };
+		C89BB954CBAC6B9D3DFC01E7E441E93E /* Pods-CYShareTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYShareTests-dummy.m"; sourceTree = "<group>"; };
+		CD17150B4A5E1E574F63184F7CCB8455 /* Pods-CYShareTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYShareTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8B91E07D6DC34253ACE7D5BC2136217 /* Pods-CYShareUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYShareUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1DBC975DBE02564156178B628FA0166 /* libPods-CYShareUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYShareUITests.a"; path = "libPods-CYShareUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6ECC65909AB6B2C61D352FCA88582E2 /* Pods-CYShareUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CYShareUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E70DBE0FD31EE9D3169B854FACE47BEF /* libPods-CYShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CYShare.a"; path = "libPods-CYShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFCA218D875F8723FF7E1F93FE544A28 /* Pods-CYShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CYShare-dummy.m"; sourceTree = "<group>"; };
-		F2855866CB813E28D33D93A0DDDD1AF1 /* Pods-CYShare-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CYShare-resources.sh"; sourceTree = "<group>"; };
-		F2D1A85BB619C5F48F028AC97868E2BF /* Pods-CYShareTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYShareTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F2E0ED3FD71AC6B36F8E141A64501220 /* Pods-CYShareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CYShareUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F4DAA3A04ED4658D1198E4DAA0142433 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKExtension.framework; path = SDK/ShareSDK/Support/Optional/ShareSDKExtension.framework; sourceTree = "<group>"; };
+		FDEA7BDF59D0E11FF23647D1E59E80FC /* Pods-CYShare-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CYShare-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +66,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADF78E156C962D69961AB88512D18DCF /* Frameworks */ = {
+		63E4B14A3FFCF7C6B5E8670BA6EB053A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -187,201 +86,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		08A7B5DA88AA58990AA974991839334D /* Frameworks */ = {
+		97C3E32B95B636A296F71847880944F0 /* Pods-CYShareTests */ = {
 			isa = PBXGroup;
 			children = (
-				174B243B37BD3E7C1CF2F0574CAA16A5 /* TencentOpenAPI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0DAA9D16A08CE90FB0DB864A8E43F6EE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5AAEF36D1EBE2E66B80E1DCC60CF4896 /* Pods-CYShare */,
-				2F956C0BAF3CB9456699DB76BCACA217 /* Pods-CYShareTests */,
-				EE82A430BEBA3ECCB1CC256459D23A9B /* Pods-CYShareUITests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		1658AFD433272BF84639B6108C7468F8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0D5DAA779DFEBDD59BD483B0CD9FC3F9 /* ShareSDK.bundle */,
-				87AC2B95624BF8F94BBC83288D72A316 /* WeiboSDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		1CD7CFFCE55E123CB5ED195A8DE51A79 /* ShareSDK3 */ = {
-			isa = PBXGroup;
-			children = (
-				E88B50441BFAB19617842CC41A3DDD7B /* ShareSDKPlatforms */,
-				4FF0B59862BB7C436D122C37D38056DF /* Support Files */,
-			);
-			name = ShareSDK3;
-			path = ShareSDK3;
-			sourceTree = "<group>";
-		};
-		20CC56172644A91E3242FDD226E70E3D /* SinaWeibo */ = {
-			isa = PBXGroup;
-			children = (
-				D7DE482AB67607357C189368F3497745 /* WBHttpRequest.h */,
-				E12D32DBDDD7EF9FECD489F6DCE26A47 /* WeiboSDK.h */,
-				7A59F980009B29D9167F03D8D880B3A4 /* Frameworks */,
-				1658AFD433272BF84639B6108C7468F8 /* Resources */,
-			);
-			name = SinaWeibo;
-			sourceTree = "<group>";
-		};
-		20DEDF64D03375E117D5D427C1A28A3D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				243495D4D08D4A06BA9E6B8772E89427 /* libWeChatSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2733872AC5B299D3611F31A8689F74BF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7C89C0C1B678231074B1B20EE0BAF224 /* MOBFoundation.framework */,
-				30A8053D76F85AD4997A5A5EC44BDDCE /* MOBFoundationEx.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2F956C0BAF3CB9456699DB76BCACA217 /* Pods-CYShareTests */ = {
-			isa = PBXGroup;
-			children = (
-				639ADC16D64ABBDAEF3C4E8203DF6536 /* Pods-CYShareTests-acknowledgements.markdown */,
-				F2D1A85BB619C5F48F028AC97868E2BF /* Pods-CYShareTests-acknowledgements.plist */,
-				A529F1C15217CE8D64B615396A120768 /* Pods-CYShareTests-dummy.m */,
-				4DD42A2185A84C0451E95D029DAF3A3A /* Pods-CYShareTests.debug.xcconfig */,
-				1D89C41793B05EC745B7C1AAD0099BAA /* Pods-CYShareTests.release.xcconfig */,
+				CD17150B4A5E1E574F63184F7CCB8455 /* Pods-CYShareTests-acknowledgements.markdown */,
+				73A1D73EE36CEC62447893E078965ECE /* Pods-CYShareTests-acknowledgements.plist */,
+				C89BB954CBAC6B9D3DFC01E7E441E93E /* Pods-CYShareTests-dummy.m */,
+				3ED3A482C9C2731F747F48903B0B4272 /* Pods-CYShareTests.debug.xcconfig */,
+				9756D10884AEB284AA5EB0D927098B74 /* Pods-CYShareTests.release.xcconfig */,
 			);
 			name = "Pods-CYShareTests";
 			path = "Target Support Files/Pods-CYShareTests";
 			sourceTree = "<group>";
 		};
-		3AD083DCF1D2DDD49792A798408E42ED /* Pods */ = {
+		B48FBDD597E6A4180FCDB8BBF12D9E56 /* Pods-CYShare */ = {
 			isa = PBXGroup;
 			children = (
-				CB1A15F28F68720AE3B18F14E2D46EF0 /* MOBFoundation */,
-				1CD7CFFCE55E123CB5ED195A8DE51A79 /* ShareSDK3 */,
-				49AA96D9B2DC0857A05789719358FF76 /* TencentOpenApiSDK */,
-				876383FFC14F1EED95324191D42B1FA2 /* WechatOpenSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		475835D975162138B55BC99E2A2BA2E7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C16B08137494B7D6C457AFB6273E3DA5 /* MOBFoundation.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MOBFoundation";
-			sourceTree = "<group>";
-		};
-		49AA96D9B2DC0857A05789719358FF76 /* TencentOpenApiSDK */ = {
-			isa = PBXGroup;
-			children = (
-				822FB759610005C030C9B61E6F6A6368 /* Basic */,
-				747934FD8E641F4FCDE465C264C2B4CC /* Support Files */,
-			);
-			name = TencentOpenApiSDK;
-			path = TencentOpenApiSDK;
-			sourceTree = "<group>";
-		};
-		4FF0B59862BB7C436D122C37D38056DF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B6ECC508DF62C0FB0D08367B7D1C32E /* ShareSDK3.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ShareSDK3";
-			sourceTree = "<group>";
-		};
-		5AAEF36D1EBE2E66B80E1DCC60CF4896 /* Pods-CYShare */ = {
-			isa = PBXGroup;
-			children = (
-				10BDD963B7C2B20562AB4F2A7231C676 /* Pods-CYShare-acknowledgements.markdown */,
-				C45139F96A6D8DA66BB04A5AC4D6AEF5 /* Pods-CYShare-acknowledgements.plist */,
-				EFCA218D875F8723FF7E1F93FE544A28 /* Pods-CYShare-dummy.m */,
-				F2855866CB813E28D33D93A0DDDD1AF1 /* Pods-CYShare-resources.sh */,
-				9705E75C1BB846395D8BA13FF7DA017B /* Pods-CYShare.debug.xcconfig */,
-				22C08326F54AC24B7698C2DEBEA842F1 /* Pods-CYShare.release.xcconfig */,
+				296A4C9D9D97BE55C224D4D02434FA03 /* Pods-CYShare-acknowledgements.markdown */,
+				FDEA7BDF59D0E11FF23647D1E59E80FC /* Pods-CYShare-acknowledgements.plist */,
+				442D72ED79C0BFDD08D35296FEBAA54A /* Pods-CYShare-dummy.m */,
+				15CC789CA9F6F662EC650C28F22FE478 /* Pods-CYShare.debug.xcconfig */,
+				B0166B6EFDA6A5BC2939F6681DE6515E /* Pods-CYShare.release.xcconfig */,
 			);
 			name = "Pods-CYShare";
 			path = "Target Support Files/Pods-CYShare";
-			sourceTree = "<group>";
-		};
-		747934FD8E641F4FCDE465C264C2B4CC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B64BCF2EBB31BE100B3B62C95A0960E /* TencentOpenApiSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TencentOpenApiSDK";
-			sourceTree = "<group>";
-		};
-		7A59F980009B29D9167F03D8D880B3A4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A2AFC368EA71581BABF796FDDFDADFA /* libWeiboSDK.a */,
-				9B2A1E5B730B606E7F5A1064E2796BE5 /* ShareSDK.framework */,
-				49362A465E7426D600E5D55E4C082EEE /* ShareSDKConnector.framework */,
-				F4DAA3A04ED4658D1198E4DAA0142433 /* ShareSDKExtension.framework */,
-				81146480671412F3F1819997031550DA /* SinaWeiboConnector.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		822FB759610005C030C9B61E6F6A6368 /* Basic */ = {
-			isa = PBXGroup;
-			children = (
-				3EB7961B4E80094B40A66A17A73CDA88 /* QQApiInterface.h */,
-				5BDAF0DF3FEA0F1EE9855622AEBB407D /* QQApiInterfaceObject.h */,
-				8BE1F7C7D943089C33D736C725C11E5B /* sdkdef.h */,
-				1387960AD3389CD3FDBA5356C9F85871 /* TencentOAuth.h */,
-				9DF4222803ABE7DD78488A045A7CCFA6 /* TencentOAuthObject.h */,
-				08A7B5DA88AA58990AA974991839334D /* Frameworks */,
-			);
-			name = Basic;
-			sourceTree = "<group>";
-		};
-		876383FFC14F1EED95324191D42B1FA2 /* WechatOpenSDK */ = {
-			isa = PBXGroup;
-			children = (
-				7DD2365C29FF21880FC6C8C2D2B6BBDC /* WechatAuthSDK.h */,
-				A1166825481CAA5E33C3D88279F3A409 /* WXApi.h */,
-				BEF3920FB7D3F8ACAF4691A43D838FA5 /* WXApiObject.h */,
-				20DEDF64D03375E117D5D427C1A28A3D /* Frameworks */,
-				A10715AEF647499DF6C923A4AB892783 /* Support Files */,
-			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
-			sourceTree = "<group>";
-		};
-		A10715AEF647499DF6C923A4AB892783 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DED562ECEFCCDE5193CAF477C4718CF8 /* WechatOpenSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WechatOpenSDK";
-			sourceTree = "<group>";
-		};
-		CB1A15F28F68720AE3B18F14E2D46EF0 /* MOBFoundation */ = {
-			isa = PBXGroup;
-			children = (
-				2733872AC5B299D3611F31A8689F74BF /* Frameworks */,
-				475835D975162138B55BC99E2A2BA2E7 /* Support Files */,
-			);
-			name = MOBFoundation;
-			path = MOBFoundation;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -389,10 +117,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				3AD083DCF1D2DDD49792A798408E42ED /* Pods */,
 				018CF6B54E90322FD8D23579CB39F82F /* Products */,
-				0DAA9D16A08CE90FB0DB864A8E43F6EE /* Targets Support Files */,
+				D8485E7554D4CBC5C01D5D8C113C0DD9 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D8485E7554D4CBC5C01D5D8C113C0DD9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48FBDD597E6A4180FCDB8BBF12D9E56 /* Pods-CYShare */,
+				97C3E32B95B636A296F71847880944F0 /* Pods-CYShareTests */,
+				E5125A025713F162BCE3099BA3297A66 /* Pods-CYShareUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -402,22 +139,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E88B50441BFAB19617842CC41A3DDD7B /* ShareSDKPlatforms */ = {
+		E5125A025713F162BCE3099BA3297A66 /* Pods-CYShareUITests */ = {
 			isa = PBXGroup;
 			children = (
-				20CC56172644A91E3242FDD226E70E3D /* SinaWeibo */,
-			);
-			name = ShareSDKPlatforms;
-			sourceTree = "<group>";
-		};
-		EE82A430BEBA3ECCB1CC256459D23A9B /* Pods-CYShareUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E6ECC65909AB6B2C61D352FCA88582E2 /* Pods-CYShareUITests-acknowledgements.markdown */,
-				4A8A197B984A273F4A23B65509F250E1 /* Pods-CYShareUITests-acknowledgements.plist */,
-				C6EE00F7C70414D862C6E1DD073E9943 /* Pods-CYShareUITests-dummy.m */,
-				7A9674A05B2934FBEF846D1F004AE4CD /* Pods-CYShareUITests.debug.xcconfig */,
-				F2E0ED3FD71AC6B36F8E141A64501220 /* Pods-CYShareUITests.release.xcconfig */,
+				D8B91E07D6DC34253ACE7D5BC2136217 /* Pods-CYShareUITests-acknowledgements.markdown */,
+				9E8FE2FB7742D11A0DA50D2C6D8D34CA /* Pods-CYShareUITests-acknowledgements.plist */,
+				977227534A3BCCA546368721B9DF17D8 /* Pods-CYShareUITests-dummy.m */,
+				7D57054ABC2887907A54DA95663C4B53 /* Pods-CYShareUITests.debug.xcconfig */,
+				8D44DEFC3FFE578DDB5A1D6EFA47166F /* Pods-CYShareUITests.release.xcconfig */,
 			);
 			name = "Pods-CYShareUITests";
 			path = "Target Support Files/Pods-CYShareUITests";
@@ -426,14 +155,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4A710E2A09B03801884E32BE6889B1DE /* Headers */ = {
+		4178FC6340A6AACD409DD6FF41CD10B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F86EF5FB873FDDC0B498F13CBA2E5042 /* Headers */ = {
+		4A710E2A09B03801884E32BE6889B1DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,27 +197,6 @@
 			productReference = 594CF4F4B78BBFA426C4325C869C171B /* libPods-CYShareTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		2B8AC6FA595AB13AC92E096CB7CCC969 /* Pods-CYShare */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6A6F4663475A4269F53673F830C1358C /* Build configuration list for PBXNativeTarget "Pods-CYShare" */;
-			buildPhases = (
-				F86EF5FB873FDDC0B498F13CBA2E5042 /* Headers */,
-				88E4DACFE4AF468E71CC8CAFEB7FE4FD /* Sources */,
-				ADF78E156C962D69961AB88512D18DCF /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43C6C34534D8FB2CA0677A2C688AB898 /* PBXTargetDependency */,
-				DB9B429B42038218DA744173D4CC3515 /* PBXTargetDependency */,
-				64BCFF3E9FEB49DFE462E1EF951449FB /* PBXTargetDependency */,
-				C8FD0D06958EAA6060023A7C4E23F875 /* PBXTargetDependency */,
-			);
-			name = "Pods-CYShare";
-			productName = "Pods-CYShare";
-			productReference = E70DBE0FD31EE9D3169B854FACE47BEF /* libPods-CYShare.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		69AEF65ED5E38E013CC41A661B9C1A76 /* Pods-CYShareUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20542D19491F3B6972E5E8D6B9459C76 /* Build configuration list for PBXNativeTarget "Pods-CYShareUITests" */;
@@ -505,6 +213,23 @@
 			name = "Pods-CYShareUITests";
 			productName = "Pods-CYShareUITests";
 			productReference = E1DBC975DBE02564156178B628FA0166 /* libPods-CYShareUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D62B5B905BC3CDD8E3CD404172B1EA19 /* Pods-CYShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4312C26F0BED7B0D83B95745B03E6CCD /* Build configuration list for PBXNativeTarget "Pods-CYShare" */;
+			buildPhases = (
+				4178FC6340A6AACD409DD6FF41CD10B4 /* Headers */,
+				C76D13C42974821E7DC42AF23F0F84C8 /* Sources */,
+				63E4B14A3FFCF7C6B5E8670BA6EB053A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CYShare";
+			productName = "Pods-CYShare";
+			productReference = E70DBE0FD31EE9D3169B854FACE47BEF /* libPods-CYShare.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -528,13 +253,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C280DB67AE73DAECC3231DC79E71D483 /* MOBFoundation */,
-				2B8AC6FA595AB13AC92E096CB7CCC969 /* Pods-CYShare */,
+				D62B5B905BC3CDD8E3CD404172B1EA19 /* Pods-CYShare */,
 				11B2B949C8420EF155AE19DDF4E54433 /* Pods-CYShareTests */,
 				69AEF65ED5E38E013CC41A661B9C1A76 /* Pods-CYShareUITests */,
-				2F96A53607420A85F66B79FC4FD45E4C /* ShareSDK3 */,
-				413E61EDB665EA51FEC31FADB06F1A60 /* TencentOpenApiSDK */,
-				AA3F757EEB96F08F687C2A1B60D77C56 /* WechatOpenSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -556,81 +277,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88E4DACFE4AF468E71CC8CAFEB7FE4FD /* Sources */ = {
+		C76D13C42974821E7DC42AF23F0F84C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937E6AFB6D0AE4BE1E2920C6DA29AC89 /* Pods-CYShare-dummy.m in Sources */,
+				83B2DBBA095BE9461A9013FC1A34A029 /* Pods-CYShare-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43C6C34534D8FB2CA0677A2C688AB898 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MOBFoundation;
-			target = C280DB67AE73DAECC3231DC79E71D483 /* MOBFoundation */;
-			targetProxy = A39301FCDF196366945C1D093DB13C22 /* PBXContainerItemProxy */;
-		};
-		64BCFF3E9FEB49DFE462E1EF951449FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TencentOpenApiSDK;
-			target = 413E61EDB665EA51FEC31FADB06F1A60 /* TencentOpenApiSDK */;
-			targetProxy = 679BEE8658B6112068410FC2B3CF5BDC /* PBXContainerItemProxy */;
-		};
-		92831A72431BA04A3444DF8D083897A6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MOBFoundation;
-			target = C280DB67AE73DAECC3231DC79E71D483 /* MOBFoundation */;
-			targetProxy = EC344E65680C1FF917B48F0BA97B665B /* PBXContainerItemProxy */;
-		};
 		BCEA26BE77D9328D18928E8E2D51C63D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CYShare";
-			target = 2B8AC6FA595AB13AC92E096CB7CCC969 /* Pods-CYShare */;
+			target = D62B5B905BC3CDD8E3CD404172B1EA19 /* Pods-CYShare */;
 			targetProxy = 6D1EED7D5A0A3FD7E6C32C72694DFFBE /* PBXContainerItemProxy */;
-		};
-		C8FD0D06958EAA6060023A7C4E23F875 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			target = AA3F757EEB96F08F687C2A1B60D77C56 /* WechatOpenSDK */;
-			targetProxy = AAB9915F56E8A03C5809F1C06EAA6B3F /* PBXContainerItemProxy */;
-		};
-		DB9B429B42038218DA744173D4CC3515 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ShareSDK3;
-			target = 2F96A53607420A85F66B79FC4FD45E4C /* ShareSDK3 */;
-			targetProxy = 91AA7A3D9B87FB26B1CE77BD379779EA /* PBXContainerItemProxy */;
 		};
 		EE9565E9AB557444464D7328D009F705 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CYShare";
-			target = 2B8AC6FA595AB13AC92E096CB7CCC969 /* Pods-CYShare */;
+			target = D62B5B905BC3CDD8E3CD404172B1EA19 /* Pods-CYShare */;
 			targetProxy = EF63D8E3AB705DB201949078BBCBED0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		125DCC49F94C02878BC57D8B04E6452E /* Debug */ = {
+		20FC49D0741AA4128D80B65CE2C44206 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B6ECC508DF62C0FB0D08367B7D1C32E /* ShareSDK3.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		321145FC3692A4EC28680329AC56F3E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9705E75C1BB846395D8BA13FF7DA017B /* Pods-CYShare.debug.xcconfig */;
+			baseConfigurationReference = B0166B6EFDA6A5BC2939F6681DE6515E /* Pods-CYShare.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -647,45 +322,35 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		36DE9C72D90FE1F07E82F8C906CEEF70 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C16B08137494B7D6C457AFB6273E3DA5 /* MOBFoundation.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		3AEF28CCA4F379E360BAFF687AD5FD31 /* Debug */ = {
+		3F81E55E02FAAF830DACEED494AC35D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C16B08137494B7D6C457AFB6273E3DA5 /* MOBFoundation.xcconfig */;
+			baseConfigurationReference = 15CC789CA9F6F662EC650C28F22FE478 /* Pods-CYShare.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		465000BBBF1670B872EC0E0A6756179B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DD42A2185A84C0451E95D029DAF3A3A /* Pods-CYShareTests.debug.xcconfig */;
+			baseConfigurationReference = 3ED3A482C9C2731F747F48903B0B4272 /* Pods-CYShareTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -705,26 +370,9 @@
 			};
 			name = Debug;
 		};
-		4D8337CF40518C3AB0B67DAFFCBCBA14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B6ECC508DF62C0FB0D08367B7D1C32E /* ShareSDK3.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4E68343E3409E52D81FBE411FBB8BF09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2E0ED3FD71AC6B36F8E141A64501220 /* Pods-CYShareUITests.release.xcconfig */;
+			baseConfigurationReference = 8D44DEFC3FFE578DDB5A1D6EFA47166F /* Pods-CYShareUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -740,24 +388,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		601E4A5300FED8215AC5FA3D5900570A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B64BCF2EBB31BE100B3B62C95A0960E /* TencentOpenApiSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -765,7 +395,7 @@
 		};
 		87EB5E69865D4E8FB17A1D0DE7D9AC5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A9674A05B2934FBEF846D1F004AE4CD /* Pods-CYShareUITests.debug.xcconfig */;
+			baseConfigurationReference = 7D57054ABC2887907A54DA95663C4B53 /* Pods-CYShareUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -787,30 +417,7 @@
 		};
 		92D02B22344D76F493AA2F3483D843D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D89C41793B05EC745B7C1AAD0099BAA /* Pods-CYShareTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		97CE3E6D9F74F8481B7A62895F2E49BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22C08326F54AC24B7698C2DEBEA842F1 /* Pods-CYShare.release.xcconfig */;
+			baseConfigurationReference = 9756D10884AEB284AA5EB0D927098B74 /* Pods-CYShareTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -955,56 +562,6 @@
 			};
 			name = Debug;
 		};
-		E7D069DFD4E59BE707B6299F3FA50F9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DED562ECEFCCDE5193CAF477C4718CF8 /* WechatOpenSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E8C225E7F8FBF33758346E8F05004FC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DED562ECEFCCDE5193CAF477C4718CF8 /* WechatOpenSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F8D97ACF62BABCC30EC04EFA42D03C5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B64BCF2EBB31BE100B3B62C95A0960E /* TencentOpenApiSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1017,11 +574,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32C068D1A2F8AA73427A4B198182EDA4 /* Build configuration list for PBXAggregateTarget "TencentOpenApiSDK" */ = {
+		4312C26F0BED7B0D83B95745B03E6CCD /* Build configuration list for PBXNativeTarget "Pods-CYShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8D97ACF62BABCC30EC04EFA42D03C5B /* Debug */,
-				601E4A5300FED8215AC5FA3D5900570A /* Release */,
+				3F81E55E02FAAF830DACEED494AC35D4 /* Debug */,
+				20FC49D0741AA4128D80B65CE2C44206 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1035,47 +592,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54B172185D95C49402529268FA5EBC0C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E8C225E7F8FBF33758346E8F05004FC1 /* Debug */,
-				E7D069DFD4E59BE707B6299F3FA50F9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5F06994C1A89CA9972A2C69510B65C6E /* Build configuration list for PBXAggregateTarget "ShareSDK3" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				125DCC49F94C02878BC57D8B04E6452E /* Debug */,
-				4D8337CF40518C3AB0B67DAFFCBCBA14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		616A0A0506BAF73E079ED93A8BFF98D2 /* Build configuration list for PBXNativeTarget "Pods-CYShareTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				465000BBBF1670B872EC0E0A6756179B /* Debug */,
 				92D02B22344D76F493AA2F3483D843D5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6A6F4663475A4269F53673F830C1358C /* Build configuration list for PBXNativeTarget "Pods-CYShare" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				321145FC3692A4EC28680329AC56F3E9 /* Debug */,
-				97CE3E6D9F74F8481B7A62895F2E49BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AEF28CCA4F379E360BAFF687AD5FD31 /* Debug */,
-				36DE9C72D90FE1F07E82F8C906CEEF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

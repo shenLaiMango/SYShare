@@ -1,30 +1,3 @@
-PODS:
-  - MOBFoundation (3.2.2)
-  - ShareSDK3/ShareSDKPlatforms/SinaWeibo (4.0.4):
-    - MOBFoundation
-  - TencentOpenApiSDK (2.9.5):
-    - TencentOpenApiSDK/Basic (= 2.9.5)
-  - TencentOpenApiSDK/Basic (2.9.5)
-  - WechatOpenSDK (1.8.4)
-
-DEPENDENCIES:
-  - ShareSDK3/ShareSDKPlatforms/SinaWeibo
-  - TencentOpenApiSDK
-  - WechatOpenSDK
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MOBFoundation
-    - ShareSDK3
-    - TencentOpenApiSDK
-    - WechatOpenSDK
-
-SPEC CHECKSUMS:
-  MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
-  ShareSDK3: 75b57bab0cbe3119e281c7668eaad9d48adf3fde
-  TencentOpenApiSDK: a0d7716edd6eb438d65828168e8e5137301b436d
-  WechatOpenSDK: 9b721089507c895d05f997408c30bb6e6f5f9b60
-
-PODFILE CHECKSUM: 494709368b930124febf2810b55e89fed0e332ee
+PODFILE CHECKSUM: 8aa0b366d263b43f27d4a60648d815a0281c4f00
 
 COCOAPODS: 1.6.1

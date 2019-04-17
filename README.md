@@ -2,7 +2,7 @@
 第三方 微信，新浪，QQ分享，和微信小程序调起
 
 注释
-/* 如果崩溃 记得配置一下 ：CYShare --> info --> URL Types资料 */\n
+/* 如果崩溃 记得配置一下 ：CYShare --> info --> URL Types资料 */
 /* 如果崩溃 记得配置一下 ：CYShare --> info --> URL Types资料 */
 /* 如果崩溃 记得配置一下 ：CYShare --> info --> URL Types资料 */
 

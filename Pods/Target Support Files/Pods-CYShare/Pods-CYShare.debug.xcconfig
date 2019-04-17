@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/MOBFoundation" "${PODS_ROOT}/ShareSDK3/SDK/ShareSDK" "${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Optional" "${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/PlatformConnector" "${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/Required" "${PODS_ROOT}/TencentOpenApiSDK/Basic"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ShareSDK3" "${PODS_ROOT}/Headers/Public/WechatOpenSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/ShareSDK3/SDK/ShareSDK/Support/PlatformSDK/SinaWeiboSDK" "${PODS_ROOT}/WechatOpenSDK/WeChatSDK1.8.4"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"WeChatSDK" -l"WeiboSDK" -l"c++" -l"iconv" -l"sqlite3" -l"sqlite3.0" -l"stdc++" -l"z" -l"z.1.2.5" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreTelephony" -framework "ImageIO" -framework "JavaScriptCore" -framework "MOBFoundation" -framework "MOBFoundationEx" -framework "Security" -framework "ShareSDK" -framework "ShareSDKConnector" -framework "ShareSDKExtension" -framework "SinaWeiboConnector" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
